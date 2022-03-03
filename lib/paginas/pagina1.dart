@@ -27,6 +27,7 @@ class _Pagina1State extends State<Pagina1> {
               style: elevatedEstilo,
               onPressed: () {
                 Get.back();
+                criacaoDev2();
               },
               child: const Text('Voltar ao Menu'),
             ),
@@ -35,4 +36,9 @@ class _Pagina1State extends State<Pagina1> {
       ),
     );
   }
+}
+
+criacaoDev2() {
+  String dev2 = '3';
+  return dev2;
 }
