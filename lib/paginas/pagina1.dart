@@ -66,3 +66,8 @@ novoDev1() {
   String novodev1 = '1';
   return novodev1;
 }
+
+novacriacaoDev2() {
+  String dev2a = '2';
+  return dev2a;
+}
