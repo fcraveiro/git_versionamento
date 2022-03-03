@@ -28,6 +28,7 @@ class _Pagina1State extends State<Pagina1> {
               onPressed: () {
                 Get.back();
                 criacaoDev2();
+                criacaoDev3();
               },
               child: const Text('Voltar ao Menu'),
             ),
@@ -41,4 +42,9 @@ class _Pagina1State extends State<Pagina1> {
 criacaoDev2() {
   String dev2 = '2';
   return dev2;
+}
+
+criacaoDev3() {
+  String dev3 = '3';
+  return dev3;
 }
