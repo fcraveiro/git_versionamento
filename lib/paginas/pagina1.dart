@@ -29,6 +29,7 @@ class _Pagina1State extends State<Pagina1> {
                 Get.back();
                 criacaoDev2();
                 criacaoDev3();
+                criacaoDev1();
               },
               child: const Text('Voltar ao Menu'),
             ),
@@ -47,4 +48,9 @@ criacaoDev2() {
 criacaoDev3() {
   String dev3 = '3';
   return dev3;
+}
+
+criacaoDev1() {
+  String dev1 = '1';
+  return dev1;
 }
